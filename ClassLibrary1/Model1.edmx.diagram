@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6d499bf1c01745e18b35c13501495169" Name="Diagram1" ZoomLevel="21">
+        <EntityTypeShape EntityType="igroup199_prodModel.AidComplex" Width="1.5" PointX="12.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.Attraction" Width="1.5" PointX="12.75" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.Chapter" Width="1.5" PointX="7.5" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.Country" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.Expens" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.Feedback" Width="1.5" PointX="3" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.Option" Width="1.5" PointX="10.5" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.RegionOfTheCountry" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.SelectedBy" Width="1.5" PointX="5.25" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.SleepingComplex" Width="1.5" PointX="12.75" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.TalkWith" Width="1.5" PointX="5.25" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.TravelDiary" Width="1.5" PointX="5.25" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.Trip" Width="1.5" PointX="12.75" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.UserFavourite" Width="1.5" PointX="8.25" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup199_prodModel.User" Width="1.5" PointX="3" PointY="34.875" IsExpanded="true" />
+        <AssociationConnector Association="igroup199_prodModel.FK__AidComple__Optio__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__Attractio__Optio__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__Chapter__TravelD__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__RegionOfT__Count__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__SelectedB__Count__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__UserFavou__Count__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__SelectedB__Feedb__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__Options__Favouri__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__SelectedB__Optio__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__SleepingC__Optio__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__Trips__OptionsKe__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__SelectedB__UserE__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__TalkWith__UserEm__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__TalkWith__UserEm__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__TravelDia__UserE__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.FK__UserFavou__UserE__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup199_prodModel.WatchAt" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
